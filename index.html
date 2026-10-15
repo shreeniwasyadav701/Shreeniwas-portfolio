@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Shreeniwas Yadav | Frontend Developer Portfolio</title>
+  <meta name="description" content="Portfolio of Shreeniwas Yadav, a third-year CSE-AI student focused on web development and frontend engineering.">
+  <meta name="author" content="Shreeniwas Yadav">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#070b1a">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Shreeniwas Yadav | Frontend Developer Portfolio">
+  <meta property="og:description" content="Portfolio of Shreeniwas Yadav, a third-year CSE-AI student focused on web development and frontend engineering.">
+  <meta property="og:image" content="assets/images/og-cover.png">
+  <meta property="og:image:alt" content="Shreeniwas Yadav portfolio hero — Building Digital Experiences That Matter">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Shreeniwas Yadav | Frontend Developer Portfolio">
+  <meta name="twitter:description" content="Portfolio of Shreeniwas Yadav, a third-year CSE-AI student focused on web development and frontend engineering.">
+  <meta name="twitter:image" content="assets/images/og-cover.png">
+
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <div class="site-header__brand">
+        <a class="site-brand" href="#home">Shreeniwas Yadav</a>
+        <p class="site-brand__role">Frontend Developer</p>
+      </div>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="Open navigation menu">
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-menu" aria-label="Primary">
+        <ul class="site-nav__list">
+          <li><a class="site-nav__link" href="#home">Home</a></li>
+          <li><a class="site-nav__link" href="#about">About</a></li>
+          <li><a class="site-nav__link" href="#education">Education</a></li>
+          <li><a class="site-nav__link" href="#skills">Technical Skills</a></li>
+          <li><a class="site-nav__link" href="#progress">Learning Progress</a></li>
+          <li><a class="site-nav__link" href="#projects">Projects</a></li>
+          <li><a class="site-nav__link" href="#resume">Resume</a></li>
+          <li><a class="site-nav__link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" class="site-main">
+    <section id="home" class="hero" aria-labelledby="hero-title">
+      <div class="container hero__grid">
+
+        <div class="hero__content">
+          <p class="hero__eyebrow">
+            <span class="hero__eyebrow-rule" aria-hidden="true"></span>
+            CSE-AI STUDENT &middot; ASPIRING WEB DEVELOPER
+          </p>
+
+          <h1 id="hero-title" class="hero__title">
+            Building Digital Experiences
+            <span class="hero__title-accent">That Matter.</span>
+          </h1>
+
+          <p class="hero__intro">
+            I&#39;m Shreeniwas Yadav, a third-year CSE-AI student focused on web
+            development. I build clean, thoughtful interfaces with HTML, CSS, and
+            JavaScript, and I am currently expanding into backend development.
+          </p>
+
+          <div class="hero__actions">
+            <!-- href="#projects" lands on the Featured Projects section (Module 6); href="#contact" lands on the Let’s Connect section (Module 7) -->
+            <a class="btn btn--primary" href="#projects">Explore My Work</a>
+            <a class="btn btn--ghost" href="#contact">Get In Touch</a>
+          </div>
+
+          <p class="hero__availability">
+            <span class="hero__status-dot" aria-hidden="true"></span>
+            Open to Web Development Internships
+          </p>
+        </div>
+
+        <div class="hero__visual" aria-hidden="true">
+          <span class="hero-visual__grid"></span>
+          <span class="hero-visual__orb hero-visual__orb--blue"></span>
+          <span class="hero-visual__orb hero-visual__orb--violet"></span>
+          <span class="hero-visual__glass"></span>
+          <span class="hero-visual__chip">openToWork: true</span>
+
+          <div class="hero-visual__panel">
+            <div class="code-panel">
+              <div class="code-panel__bar">
+                <span class="code-panel__dots">
+                  <span class="code-panel__dot"></span>
+                  <span class="code-panel__dot"></span>
+                  <span class="code-panel__dot"></span>
+                </span>
+                <span class="code-panel__path">shreeniwas-portfolio/</span>
+              </div>
+
+              <div class="code-panel__body">
+                <pre class="code-panel__code"><code><span class="code-line"><span class="tok-comment">&lt;!-- index.html --&gt;</span></span>
+<span class="code-line"><span class="tok-tag">&lt;section</span> <span class="tok-attr">class</span>=<span class="tok-str">"hero"</span><span class="tok-tag">&gt;</span></span>
+<span class="code-line">  <span class="tok-tag">&lt;h1&gt;</span>Building experiences<span class="tok-tag">&lt;/h1&gt;</span></span>
+<span class="code-line"><span class="tok-tag">&lt;/section&gt;</span></span>
+<span class="code-line"></span>
+<span class="code-line"><span class="tok-comment">/* style.css */</span></span>
+<span class="code-line"><span class="tok-sel">.hero</span> { <span class="tok-prop">display</span>: <span class="tok-val">grid</span>; <span class="tok-prop">gap</span>: <span class="tok-val">2rem</span>; }</span>
+<span class="code-line"></span>
+<span class="code-line"><span class="tok-comment">// script.js</span></span>
+<span class="code-line"><span class="tok-kw">const</span> stack = [<span class="tok-str">"HTML"</span>, <span class="tok-str">"CSS"</span>, <span class="tok-str">"JS"</span>];</span></code></pre>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="about" class="section about" aria-labelledby="about-title">
+      <div class="container about__grid">
+
+        <div class="about__content">
+          <p class="section-eyebrow">
+            <span class="section-eyebrow-rule" aria-hidden="true"></span>
+            ABOUT ME
+          </p>
+
+          <h2 id="about-title" class="section-title">
+            Beyond the <span class="section-title__accent">Code</span>
+          </h2>
+
+          <p class="about__text reveal">
+            I&#39;m Shreeniwas Yadav, a third-year Computer Science and Engineering
+            student specializing in Artificial Intelligence. I&#39;m passionate about
+            web development, Java programming, and Data Structures &amp; Algorithms.
+            I enjoy building practical projects, exploring new technologies, and
+            strengthening my problem-solving skills.
+          </p>
+
+          <p class="about__text about__text--support reveal">
+            My goal is to keep learning, turn ideas into useful digital experiences,
+            and grow as a software developer.
+          </p>
+        </div>
+
+        <div class="about-visual reveal" aria-hidden="true">
+          <span class="about-visual__grid"></span>
+          <span class="about-visual__orb about-visual__orb--blue"></span>
+          <span class="about-visual__orb about-visual__orb--violet"></span>
+
+          <div class="about-visual__stage">
+            <div class="monogram-tile">
+              <span class="monogram-tile__initials">SY</span>
+              <span class="monogram-tile__label">CSE-AI Student</span>
+            </div>
+
+            <span class="focus-chip focus-chip--web">Web Development</span>
+            <span class="focus-chip focus-chip--java">Java</span>
+            <span class="focus-chip focus-chip--dsa">DSA</span>
+            <span class="focus-chip focus-chip--ai">CSE-AI</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="education" class="section education" aria-labelledby="education-title">
+      <div class="container">
+
+        <p class="section-eyebrow">
+          <span class="section-eyebrow-rule" aria-hidden="true"></span>
+          ACADEMICS
+        </p>
+
+        <h2 id="education-title" class="section-title">
+          Education &amp; <span class="section-title__accent">Academic Journey</span>
+        </h2>
+
+        <article class="edu-card reveal">
+          <div class="edu-card__icon">
+            <svg class="edu-card__icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M22 10 12 5 2 10l10 5 10-5Z"></path>
+              <path d="M6 12.5V17c0 1.5 2.7 3 6 3s6-1.5 6-3v-4.5"></path>
+              <path d="M22 10v6"></path>
+            </svg>
+          </div>
+
+          <div class="edu-card__body">
+            <h3 class="edu-card__institution">Dr. M.G.R. Educational and Research Institute</h3>
+            <p class="edu-card__course">Computer Science and Engineering &mdash; Artificial Intelligence (CSE-AI)</p>
+            <p class="edu-card__status">Third-year student</p>
+          </div>
+
+          <div class="edu-card__result">
+            <p class="edu-card__score">
+              <span class="edu-card__cgpa">7.2</span>
+              <span class="edu-card__scale">/ 10</span>
+            </p>
+            <p class="edu-card__result-label">Third-semester CGPA</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="skills" class="section skills" aria-labelledby="skills-title">
+      <div class="container">
+
+        <p class="section-eyebrow">
+          <span class="section-eyebrow-rule" aria-hidden="true"></span>
+          TOOLKIT
+        </p>
+
+        <h2 id="skills-title" class="section-title">
+          Technical <span class="section-title__accent">Skills</span>
+        </h2>
+
+        <p class="skills__intro reveal">
+          I&#39;m continuously learning and improving both my development and
+          problem-solving skills. I work with the technologies below to build
+          practical projects, and I practice Java, data structures, and
+          algorithms to strengthen my fundamentals.
+        </p>
+
+        <div class="skills__groups">
+
+          <article class="skill-group skill-group--web reveal" aria-labelledby="skills-web-title">
+            <header class="skill-group__header">
+              <span class="skill-group__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" focusable="false">
+                  <path d="M12 2 2 7l10 5 10-5-10-5Z"></path>
+                  <path d="M2 12l10 5 10-5"></path>
+                  <path d="M2 17l10 5 10-5"></path>
+                </svg>
+              </span>
+
+              <div class="skill-group__heading">
+                <h3 id="skills-web-title" class="skill-group__title">Full Stack Web Development</h3>
+                <p class="skill-group__note">My main focus &mdash; the stack I&#39;m learning and building projects with.</p>
+              </div>
+            </header>
+
+            <ol class="skill-list">
+              <li class="skill-item"><span class="skill-item__index" aria-hidden="true">01</span><span class="skill-item__name">HTML5</span></li>
+              <li class="skill-item"><span class="skill-item__index" aria-hidden="true">02</span><span class="skill-item__name">CSS3</span></li>
+              <li class="skill-item"><span class="skill-item__index" aria-hidden="true">03</span><span class="skill-item__name">JavaScript</span></li>
+              <li class="skill-item"><span class="skill-item__index" aria-hidden="true">04</span><span class="skill-item__name">Node.js</span></li>
+              <li class="skill-item"><span class="skill-item__index" aria-hidden="true">05</span><span class="skill-item__name">Express.js</span></li>
+              <li class="skill-item"><span class="skill-item__index" aria-hidden="true">06</span><span class="skill-item__name">MongoDB</span></li>
+              <li class="skill-item"><span class="skill-item__index" aria-hidden="true">07</span><span class="skill-item__name">Mongoose</span></li>
+              <li class="skill-item"><span class="skill-item__index" aria-hidden="true">08</span><span class="skill-item__name">REST APIs</span></li>
+              <li class="skill-item"><span class="skill-item__index" aria-hidden="true">09</span><span class="skill-item__name">Git</span></li>
+              <li class="skill-item"><span class="skill-item__index" aria-hidden="true">10</span><span class="skill-item__name">GitHub</span></li>
+              <li class="skill-item"><span class="skill-item__index" aria-hidden="true">11</span><span class="skill-item__name">SQL</span></li>
+              <li class="skill-item"><span class="skill-item__index" aria-hidden="true">12</span><span class="skill-item__name">Database Fundamentals</span></li>
+            </ol>
+          </article>
+
+          <article class="skill-group skill-group--dsa reveal" aria-labelledby="skills-dsa-title">
+            <header class="skill-group__header">
+              <span class="skill-group__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" focusable="false">
+                  <circle cx="5" cy="6" r="2.5"></circle>
+                  <circle cx="5" cy="18" r="2.5"></circle>
+                  <circle cx="19" cy="12" r="2.5"></circle>
+                  <path d="M7.4 7.1 16.6 11.2"></path>
+                  <path d="M7.4 16.9 16.6 12.8"></path>
+                </svg>
+              </span>
+
+              <div class="skill-group__heading">
+                <h3 id="skills-dsa-title" class="skill-group__title">Java &amp; Data Structures and Algorithms (DSA)</h3>
+                <p class="skill-group__note">Core problem-solving topics I practice in Java.</p>
+              </div>
+            </header>
+
+            <ul class="skill-tags">
+              <li class="skill-tag">Java Programming</li>
+              <li class="skill-tag">Problem Solving</li>
+              <li class="skill-tag">Data Structures</li>
+              <li class="skill-tag">Algorithms</li>
+              <li class="skill-tag">Arrays</li>
+              <li class="skill-tag">Strings</li>
+              <li class="skill-tag">Searching and Sorting</li>
+              <li class="skill-tag">Time and Space Complexity</li>
+            </ul>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section id="progress" class="section progress" aria-labelledby="progress-title">
+      <div class="container">
+
+        <p class="section-eyebrow">
+          <span class="section-eyebrow-rule" aria-hidden="true"></span>
+          LEARNING PROGRESS
+        </p>
+
+        <h2 id="progress-title" class="section-title">
+          My Learning <span class="section-title__accent">Journey</span>
+        </h2>
+
+        <p class="progress__intro reveal">
+          I believe in consistent learning and practical improvement. Here, I track
+          my progress as I grow in Full Stack Web Development and Java &amp; Data
+          Structures and Algorithms.
+        </p>
+
+        <div class="progress__cards">
+
+          <article class="progress-card progress-card--web reveal" data-progress-card data-storage-key="learning-progress-fullstack" aria-labelledby="progress-web-title">
+            <header class="progress-card__header">
+              <span class="progress-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" focusable="false">
+                  <path d="M12 2 2 7l10 5 10-5-10-5Z"></path>
+                  <path d="M2 12l10 5 10-5"></path>
+                  <path d="M2 17l10 5 10-5"></path>
+                </svg>
+              </span>
+
+              <div class="progress-card__heading">
+                <h3 id="progress-web-title" class="progress-card__title">Full Stack Web Development</h3>
+                <p class="progress-card__note">Check off each topic as I learn it and build with it.</p>
+              </div>
+
+              <button type="button" class="btn btn--ghost progress-card__reset" data-progress-reset aria-label="Reset Full Stack Web Development checklist">Reset</button>
+            </header>
+
+            <div class="progress-card__track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="Full Stack Web Development checklist progress" data-progress-bar>
+              <span class="progress-card__fill" data-progress-fill></span>
+            </div>
+
+            <div class="progress-card__stats">
+              <p class="progress-card__count" data-progress-count aria-live="polite">0 of 26 topics completed</p>
+              <p class="progress-card__percent" data-progress-percent>0%</p>
+            </div>
+
+            <div class="progress-topic-group">
+              <h4 class="progress-topic-group__title">Frontend</h4>
+              <ul class="progress-list">
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="html-fundamentals"><span class="progress-topic__text">HTML Fundamentals</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="semantic-html-and-forms"><span class="progress-topic__text">Semantic HTML and Forms</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="css-fundamentals"><span class="progress-topic__text">CSS Fundamentals</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="flexbox-and-grid"><span class="progress-topic__text">Flexbox and Grid</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="responsive-web-design"><span class="progress-topic__text">Responsive Web Design</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="javascript-fundamentals"><span class="progress-topic__text">JavaScript Fundamentals</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="dom-manipulation"><span class="progress-topic__text">DOM Manipulation</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="events-and-form-validation"><span class="progress-topic__text">Events and Form Validation</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="arrays-objects-and-functions"><span class="progress-topic__text">Arrays, Objects, and Functions</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="async-javascript-and-fetch-api"><span class="progress-topic__text">Async JavaScript and Fetch API</span></label></li>
+              </ul>
+            </div>
+
+            <div class="progress-topic-group">
+              <h4 class="progress-topic-group__title">Backend</h4>
+              <ul class="progress-list">
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="nodejs-fundamentals"><span class="progress-topic__text">Node.js Fundamentals</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="expressjs-fundamentals"><span class="progress-topic__text">Express.js Fundamentals</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="rest-api-development"><span class="progress-topic__text">REST API Development</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="routing-and-middleware"><span class="progress-topic__text">Routing and Middleware</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="authentication-fundamentals"><span class="progress-topic__text">Authentication Fundamentals</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="mongodb-fundamentals"><span class="progress-topic__text">MongoDB Fundamentals</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="mongoose-basics"><span class="progress-topic__text">Mongoose Basics</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="crud-operations"><span class="progress-topic__text">CRUD Operations</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="sql-fundamentals"><span class="progress-topic__text">SQL Fundamentals</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="database-fundamentals"><span class="progress-topic__text">Database Fundamentals</span></label></li>
+              </ul>
+            </div>
+
+            <div class="progress-topic-group">
+              <h4 class="progress-topic-group__title">Tools and Practice</h4>
+              <ul class="progress-list">
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="git-basics"><span class="progress-topic__text">Git Basics</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="github-repositories"><span class="progress-topic__text">GitHub Repositories</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="environment-variables"><span class="progress-topic__text">Environment Variables</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="api-testing"><span class="progress-topic__text">API Testing</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="full-stack-project-integration"><span class="progress-topic__text">Full Stack Project Integration</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="deployment-fundamentals"><span class="progress-topic__text">Deployment Fundamentals</span></label></li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="progress-card progress-card--java reveal" data-progress-card data-storage-key="learning-progress-javadsa" aria-labelledby="progress-dsa-title">
+            <header class="progress-card__header">
+              <span class="progress-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" focusable="false">
+                  <circle cx="5" cy="6" r="2.5"></circle>
+                  <circle cx="5" cy="18" r="2.5"></circle>
+                  <circle cx="19" cy="12" r="2.5"></circle>
+                  <path d="M7.4 7.1 16.6 11.2"></path>
+                  <path d="M7.4 16.9 16.6 12.8"></path>
+                </svg>
+              </span>
+
+              <div class="progress-card__heading">
+                <h3 id="progress-dsa-title" class="progress-card__title">Java &amp; Data Structures and Algorithms</h3>
+                <p class="progress-card__note">Check off each topic as I practice and solve problems.</p>
+              </div>
+
+              <button type="button" class="btn btn--ghost progress-card__reset" data-progress-reset aria-label="Reset Java and Data Structures and Algorithms checklist">Reset</button>
+            </header>
+
+            <div class="progress-card__track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="Java and Data Structures and Algorithms checklist progress" data-progress-bar>
+              <span class="progress-card__fill" data-progress-fill></span>
+            </div>
+
+            <div class="progress-card__stats">
+              <p class="progress-card__count" data-progress-count aria-live="polite">0 of 28 topics completed</p>
+              <p class="progress-card__percent" data-progress-percent>0%</p>
+            </div>
+
+            <div class="progress-topic-group">
+              <h4 class="progress-topic-group__title">Java Fundamentals</h4>
+              <ul class="progress-list">
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="java-syntax-and-variables"><span class="progress-topic__text">Java Syntax and Variables</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="data-types-and-operators"><span class="progress-topic__text">Data Types and Operators</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="conditions-and-loops"><span class="progress-topic__text">Conditions and Loops</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="methods"><span class="progress-topic__text">Methods</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="arrays-and-strings"><span class="progress-topic__text">Arrays and Strings</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="object-oriented-programming"><span class="progress-topic__text">Object-Oriented Programming</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="exception-handling"><span class="progress-topic__text">Exception Handling</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="collections-framework"><span class="progress-topic__text">Collections Framework</span></label></li>
+              </ul>
+            </div>
+
+            <div class="progress-topic-group">
+              <h4 class="progress-topic-group__title">Data Structures and Algorithms</h4>
+              <ul class="progress-list">
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="time-complexity"><span class="progress-topic__text">Time Complexity</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="space-complexity"><span class="progress-topic__text">Space Complexity</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="basic-mathematics"><span class="progress-topic__text">Basic Mathematics</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="basic-recursion"><span class="progress-topic__text">Basic Recursion</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="sorting-algorithms"><span class="progress-topic__text">Sorting Algorithms</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="searching-algorithms"><span class="progress-topic__text">Searching Algorithms</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="two-pointers"><span class="progress-topic__text">Two Pointers</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="hashing"><span class="progress-topic__text">Hashing</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="linked-lists"><span class="progress-topic__text">Linked Lists</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="stacks-and-queues"><span class="progress-topic__text">Stacks and Queues</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="binary-search"><span class="progress-topic__text">Binary Search</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="trees"><span class="progress-topic__text">Trees</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="heaps"><span class="progress-topic__text">Heaps</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="graphs"><span class="progress-topic__text">Graphs</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="dynamic-programming"><span class="progress-topic__text">Dynamic Programming</span></label></li>
+              </ul>
+            </div>
+
+            <div class="progress-topic-group">
+              <h4 class="progress-topic-group__title">Problem Solving</h4>
+              <ul class="progress-list">
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="array-practice"><span class="progress-topic__text">Array Practice</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="string-practice"><span class="progress-topic__text">String Practice</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="pattern-problems"><span class="progress-topic__text">Pattern Problems</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="logical-reasoning-problems"><span class="progress-topic__text">Logical Reasoning Problems</span></label></li>
+                <li class="progress-topic"><label class="progress-topic__label"><input class="progress-topic__input" type="checkbox" data-topic="daily-dsa-practice"><span class="progress-topic__text">Daily DSA Practice</span></label></li>
+              </ul>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section id="projects" class="section projects" aria-labelledby="projects-title">
+      <div class="container">
+
+        <p class="section-eyebrow">
+          <span class="section-eyebrow-rule" aria-hidden="true"></span>
+          SELECTED WORK
+        </p>
+
+        <h2 id="projects-title" class="section-title">
+          Featured <span class="section-title__accent">Projects</span>
+        </h2>
+
+        <p class="projects__intro reveal">
+          Here are some of the projects I have worked on to apply my development
+          skills, explore practical problems, and continue learning through
+          hands-on experience.
+        </p>
+
+        <div class="projects__grid">
+
+          <article class="project-card project-card--market reveal" aria-labelledby="project-market-title">
+            <div class="project-preview project-preview--market" aria-hidden="true">
+              <div class="code-panel__bar">
+                <span class="code-panel__dots">
+                  <span class="code-panel__dot"></span>
+                  <span class="code-panel__dot"></span>
+                  <span class="code-panel__dot"></span>
+                </span>
+                <span class="code-panel__path">local-market</span>
+              </div>
+
+              <div class="project-preview__stage">
+                <div class="market-mock">
+                  <div class="market-mock__bar">
+                    <span class="market-mock__brand"></span>
+                    <span class="market-mock__search"></span>
+                    <span class="market-mock__cart"></span>
+                  </div>
+
+                  <div class="market-mock__tiles">
+                    <span class="market-mock__tile market-mock__tile--a"></span>
+                    <span class="market-mock__tile market-mock__tile--b"></span>
+                    <span class="market-mock__tile market-mock__tile--c"></span>
+                    <span class="market-mock__tile market-mock__tile--d"></span>
+                  </div>
+
+                  <div class="market-mock__meta">
+                    <span class="market-mock__line"></span>
+                    <span class="market-mock__line market-mock__line--short"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card__body">
+              <div class="project-card__meta">
+                <p class="project-card__category">Full Stack Marketplace</p>
+              </div>
+
+              <h3 id="project-market-title" class="project-card__title">Local Market</h3>
+              <p class="project-card__desc">
+                Local Market is a food and local-shop ordering platform designed to
+                help users explore nearby food options, browse items, manage a cart,
+                and place orders through a convenient interface.
+              </p>
+
+              <h4 class="project-card__label">Tech Stack</h4>
+              <ul class="skill-tags">
+                <li class="skill-tag">HTML</li>
+                <li class="skill-tag">CSS</li>
+                <li class="skill-tag">Vanilla JavaScript</li>
+                <li class="skill-tag">Node.js</li>
+                <li class="skill-tag">Express.js</li>
+                <li class="skill-tag">MongoDB</li>
+                <li class="skill-tag">Mongoose</li>
+                <li class="skill-tag">JWT Authentication</li>
+              </ul>
+
+              <h4 class="project-card__label">Key Features</h4>
+              <ul class="project-card__features">
+                <li>Responsive customer-facing interface</li>
+                <li>Browse food and local-shop items</li>
+                <li>Shopping cart experience</li>
+                <li>Order-related functionality</li>
+                <li>Backend API integration</li>
+                <li>Authentication functionality</li>
+              </ul>
+
+              <div class="project-card__actions">
+                <a class="btn btn--primary" href="https://github.com/shreeniwasyadav701/Local-market" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card project-card--route reveal" aria-labelledby="project-resq-title">
+            <div class="project-preview project-preview--route" aria-hidden="true">
+              <div class="code-panel__bar">
+                <span class="code-panel__dots">
+                  <span class="code-panel__dot"></span>
+                  <span class="code-panel__dot"></span>
+                  <span class="code-panel__dot"></span>
+                </span>
+                <span class="code-panel__path">resqroute — network</span>
+              </div>
+
+              <div class="project-preview__stage">
+                <svg class="route-mock" viewBox="0 0 320 130" fill="none" aria-hidden="true" focusable="false">
+                  <defs>
+                    <linearGradient id="m6-route-grad" x1="0" y1="0" x2="1" y2="0.6">
+                      <stop offset="0" stop-color="#60a5fa"></stop>
+                      <stop offset="1" stop-color="#a78bfa"></stop>
+                    </linearGradient>
+                  </defs>
+
+                  <path class="route-mock__edge" d="M30 40L120 26"></path>
+                  <path class="route-mock__edge" d="M30 40L40 92"></path>
+                  <path class="route-mock__edge" d="M120 26L255 58"></path>
+                  <path class="route-mock__edge" d="M120 26L140 78"></path>
+                  <path class="route-mock__edge" d="M40 92L140 78"></path>
+                  <path class="route-mock__edge" d="M140 78L240 110"></path>
+                  <path class="route-mock__edge" d="M255 58L240 110"></path>
+                  <path class="route-mock__edge" d="M140 78L255 58"></path>
+
+                  <path class="route-mock__path" d="M30 40L120 26L140 78L240 110"></path>
+
+                  <circle class="route-mock__ring" cx="255" cy="58" r="12"></circle>
+                  <circle class="route-mock__node" cx="30" cy="40" r="6"></circle>
+                  <circle class="route-mock__node" cx="120" cy="26" r="6"></circle>
+                  <circle class="route-mock__node route-mock__node--incident" cx="255" cy="58" r="6"></circle>
+                  <circle class="route-mock__node" cx="40" cy="92" r="6"></circle>
+                  <circle class="route-mock__node" cx="140" cy="78" r="6"></circle>
+                  <circle class="route-mock__node" cx="240" cy="110" r="6"></circle>
+                </svg>
+
+                <span class="route-mock__chip route-mock__chip--route">Alternative route</span>
+                <span class="route-mock__chip route-mock__chip--incident">Incident detected</span>
+              </div>
+            </div>
+
+            <div class="project-card__body">
+              <div class="project-card__meta">
+                <p class="project-card__category">Smart Traffic and Route Optimization</p>
+                <p class="project-card__status">In Progress</p>
+              </div>
+
+              <h3 id="project-resq-title" class="project-card__title">ResQRoute</h3>
+              <p class="project-card__desc">
+                ResQRoute is a project concept focused on helping users respond to
+                traffic incidents by identifying affected routes and exploring
+                alternative routes. Its goal is to support safer, more informed route
+                decisions during road emergencies.
+              </p>
+
+              <h4 class="project-card__label">Tech Stack</h4>
+              <ul class="skill-tags">
+                <li class="skill-tag">Java</li>
+                <li class="skill-tag">Spring Boot</li>
+                <li class="skill-tag">Spring Security</li>
+                <li class="skill-tag">JWT</li>
+                <li class="skill-tag">MySQL</li>
+                <li class="skill-tag">Dijkstra</li>
+                <li class="skill-tag">WebSocket</li>
+              </ul>
+
+              <h4 class="project-card__label">Key Features</h4>
+              <ul class="project-card__features">
+                <li>Traffic-condition awareness</li>
+                <li>Alternative-route planning</li>
+                <li>Road incident reporting</li>
+                <li>Emergency-route assistance</li>
+              </ul>
+
+              <div class="project-card__actions">
+                <a class="btn btn--ghost" href="https://github.com/shreeniwasyadav701/ResQroute" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section id="resume" class="section resume" aria-labelledby="resume-title">
+      <div class="container">
+
+        <p class="section-eyebrow">
+          <span class="section-eyebrow-rule" aria-hidden="true"></span>
+          RESUME
+        </p>
+
+        <h2 id="resume-title" class="section-title">
+          Resume &amp; <span class="section-title__accent">Career Opportunities</span>
+        </h2>
+
+        <p class="resume__intro reveal">
+          I’m a third-year CSE-AI student interested in web development
+          internships, practical software projects, and opportunities to
+          strengthen my development and problem-solving skills.
+        </p>
+
+        <div class="resume__grid">
+          <article class="resume-card reveal" aria-labelledby="resume-card-title">
+            <span class="edu-card__icon" aria-hidden="true">
+              <svg class="edu-card__icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="9" y1="13" x2="15" y2="13"></line><line x1="9" y1="17" x2="13" y2="17"></line></svg>
+            </span>
+            <h3 id="resume-card-title" class="resume-card__title">My Resume</h3>
+            <p class="resume-card__text">Explore my education, technical skills, and project experience.</p>
+            <!-- When the real resume PDF is added (for example assets/Shreeniwas-Yadav-Resume.pdf), replace the pending note below with a download link: <a class="btn btn--primary" href="assets/Shreeniwas-Yadav-Resume.pdf" download="Shreeniwas-Yadav-Resume.pdf">Download Resume</a> -->
+            <p class="resume-card__pending">Resume PDF will be available soon</p>
+          </article>
+
+          <article class="internship-card reveal" aria-labelledby="internship-card-title">
+            <h3 id="internship-card-title" class="internship-card__title">Open to Internship Opportunities</h3>
+            <p class="internship-card__text">
+              I’m looking for opportunities to apply my web development skills,
+              learn from experienced developers, and contribute to meaningful
+              projects.
+            </p>
+            <a class="btn btn--primary" href="#contact">Connect With Me</a>
+            <div class="internship-card__socials">
+              <span class="internship-card__socials-label">Elsewhere</span>
+              <a class="text-link" href="https://github.com/shreeniwasyadav701" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile (opens in a new tab)">GitHub</a>
+              <a class="text-link" href="https://www.instagram.com/shreeniwas701/" target="_blank" rel="noopener noreferrer" aria-label="Instagram profile (opens in a new tab)">Instagram</a>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="contact" class="section contact" aria-labelledby="contact-title">
+      <div class="container">
+
+        <p class="section-eyebrow">
+          <span class="section-eyebrow-rule" aria-hidden="true"></span>
+          GET IN TOUCH
+        </p>
+
+        <h2 id="contact-title" class="section-title">
+          Let’s <span class="section-title__accent">Connect</span>
+        </h2>
+
+        <p class="contact__intro reveal">
+          I’m always interested in learning opportunities, meaningful projects,
+          and connecting with people in technology. Feel free to reach out or
+          explore my work.
+        </p>
+
+        <div class="contact__grid">
+          <article class="social-card reveal" aria-labelledby="social-instagram-title">
+            <span class="social-card__icon" aria-hidden="true">
+              <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            </span>
+            <div class="social-card__body">
+              <h3 id="social-instagram-title" class="social-card__platform">Instagram</h3>
+              <p class="social-card__handle">@shreeniwas701</p>
+              <a class="btn btn--ghost" href="https://www.instagram.com/shreeniwas701/" target="_blank" rel="noopener noreferrer" aria-label="Visit Instagram (@shreeniwas701) — opens in a new tab">Visit Instagram</a>
+            </div>
+          </article>
+
+          <article class="social-card reveal" aria-labelledby="social-github-title">
+            <span class="social-card__icon" aria-hidden="true">
+              <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+            </span>
+            <div class="social-card__body">
+              <h3 id="social-github-title" class="social-card__platform">GitHub</h3>
+              <p class="social-card__handle">shreeniwasyadav701</p>
+              <a class="btn btn--primary" href="https://github.com/shreeniwasyadav701" target="_blank" rel="noopener noreferrer" aria-label="Explore GitHub (shreeniwasyadav701) — opens in a new tab">Explore GitHub</a>
+            </div>
+          </article>
+        </div>
+
+        <!-- Future Email and LinkedIn cards belong here, added only once their real address and profile URLs are verified. -->
+
+        <div class="contact-cta reveal">
+          <p>
+            I’m open to internship opportunities and collaboration on development
+            projects. If you’d like to discuss an opportunity or work together
+            on something, I’d be glad to connect through the links above.
+          </p>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <p class="site-footer__name">Shreeniwas Yadav</p>
+      <p class="site-footer__tagline">Built with curiosity and a passion for learning.</p>
+      <p class="site-footer__copy">&copy; <span id="current-year">2026</span> Shreeniwas Yadav</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+  <script src="assets/js/progress.js"></script>
+</body>
+</html>
